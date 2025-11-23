@@ -27,9 +27,11 @@ import {
   SiNextdotjs,
   SiFigma,
   SiSupabase,
+  SiLua,
+  SiMysql
 } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, FaCamera, FaLinux  } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -63,6 +65,10 @@ export const iconLibrary: Record<string, IconType> = {
   whatsapp: FaWhatsapp,
   reddit: FaReddit,
   telegram: FaTelegram,
+  photoshop: FaCamera,
+  lua: SiLua,
+  linux: FaLinux,
+  mysql: SiMysql
 };
 
 export type IconLibrary = typeof iconLibrary;
